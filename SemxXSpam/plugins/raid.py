@@ -105,7 +105,7 @@ async def _(e):
             user_idd = a.id
             user_id = int(user_idd)
             if int(user_id) in RyanX:
-                text = f"Sorry, I Can't Raid On SemxX's Owner."
+                text = f"Sorry, I Can't Raid On Dedsec's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                 text = f"This Guy is Owner Of These Bots."            
@@ -126,7 +126,7 @@ async def _(e):
             user_idd = umser.id
             user_id = int(user_idd)
             if int(user_id) in RyanX:
-                text = f"Sorry, I Can't Raid  On SemxX's Owner."
+                text = f"Sorry, I Can't Raid  On Dedsec's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                 text = f"This Guy is Owner Of These Bots."
