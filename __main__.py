@@ -17,8 +17,8 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("Semx X BotSpam Successfully Deployed !!")
-print("Enjoy..!  Do Visit @HACKERxSPAM")
+print("Dedsec X BotSpam Successfully Deployed !!")
+print("Enjoy..!  Do Visit @x0x_VAIBHAV_x0x")
 
 if __name__ == "__main__":
     MK.run_until_disconnected()
