@@ -2,9 +2,9 @@ from SemxXSpam import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, SUDO_US
 from telethon import events, Button
 from SemxXSpam import CMD_HNDLR as hl
     
-HELP_PIC = "https://te.legra.ph/file/91d82bf74b7a75468f5ef.jpg"
+HELP_PIC = "https://telegra.ph/file/2570ac664e721a33a0aa7.jpg"
 
-RyanHelp = "★ 𝙎𝙚𝙢𝙭𝙓𝙎𝙥𝙖𝙢 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩\n\n\n@RUDRA_HUN_VAII"
+RyanHelp = "★ 𝘿𝙚𝙙𝙨𝙚𝙘 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n𝐂𝐥𝐢𝐜𝐤 𝐎𝐧 𝐁𝐞𝐥𝐨𝐰 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐅𝐨𝐫 𝐇𝐞𝐥𝐩\n\n\n@x0x_VAIBHAV_x0x @Noob_hu_bhai6"
 
 
 @MK1.on(events.NewMessage(incoming=True, pattern=r"\%shelp(?: |$)(.*)" % hl))
@@ -24,17 +24,17 @@ async def help(event):
                                   caption=RyanHelp,
                                   buttons=[
            [
-            Button.inline("🔥 Spam 🔥", data="spam"),
-            Button.inline("😈 Raid 😈", data="raid"),
+            Button.inline("🥵 Spam 🥵", data="spam"),
+            Button.inline("👻 Raid 👻", data="raid"),
            ],
            [
             Button.inline("⚡ Extra ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/TheMKHackerX131")
+            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/DESTROY_IN_SECOND")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/HACKERxSPAM")
+           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/DESTROY_IN_SECOND")
            ],
            ],
            )              
@@ -65,7 +65,7 @@ Command :
 **PackSpam :** Sticker Pack Spam
 1) {hl}packspam <reply to any sticker>
 
-**© @rudra_hun_vaii**
+**© @x0x_VAIBHAV_x0x**
 """
 
                  
@@ -94,7 +94,7 @@ Command :
 2) {hl}dreplyraid <username>
 
 
-**© @rudra_hun_vaii**
+**© @x0x_VAIBHAV_x0x**
 """
 
 spam_msg = f"""
@@ -123,7 +123,7 @@ Command :
 Command :
 1) {hl}hang <counter> (you can reply any message if you want bot to reply that message and do spamming)
 
-** © @rudra_hun_vaii**
+** © @x0x_VAIBHAV_x0x**
 """                     
            
            
@@ -143,23 +143,23 @@ async def helpback(event):
             RyanHelp,
             buttons=[
            [
-            Button.inline("🔥 Spam 🔥", data="spam"),
-            Button.inline("😈 Raid 😈", data="raid"),
+            Button.inline("🥵 Spam 🥵", data="spam"),
+            Button.inline("👻 Raid 👻", data="raid"),
            ],
            [
             Button.inline("⚡ Extra ⚡", data="extra"),
            ],
            [    
-            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/TheMKHackerX131")
+            Button.url("✨ ᴄʜᴀɴɴᴇʟ ✨", "https://t.me/DESTROY_IN_SECOND")
            ],
            [
-           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/HACKERxSPAM")
+           Button.url("✨ sᴜᴘᴘᴏʀᴛ ✨", "https://t.me/DESTROY_IN_SECOND")
            ],
            ],
         )           
    else:
         Alert = (
-                "Noob !! Make Your Own Semc X Spam Bots !! @rudra_hun_vaii"
+                "Noob !! Make Your Own Dedsec X Spam Bots !! @x0x_VAIBHAV_x0x"
             )
         await event.answer(Alert, cache_time=0, alert=True)
       
@@ -187,7 +187,7 @@ async def help_spam(event):
             ) 
    else:
         Alert = (
-                "Noob !! Make Your Own Semx X Spam Bots !! @rudra_hun_vaii"
+                "Noob !! Make Your Own Dedsec X Spam Bots !! @x0x_VAIBHAV_x0x"
             )
         await event.answer(Alert, cache_time=0, alert=True)
                  
@@ -214,7 +214,7 @@ async def help_raid(event):
             )  
      else:
         Alert = (
-                "Noob !! Make Your Own Semx X Spam Bots !! @rudra_hun_vaii"
+                "Noob !! Make Your Own Dedsec X Spam Bots !! @x0x_VAIBHAV_x0x"
             )
         await event.answer(Alert, cache_time=0, alert=True)
        
@@ -242,6 +242,6 @@ async def help_extra(event):
             )
    else:
         Alert = (
-                "Noob !! Make Your Own Semx X Spam Bots !! @rudra_hun_vaii"
+                "Noob !! Make Your Own Dedsec X Spam Bots !! @x0x_VAIBHAV_x0x"
             )
         await event.answer(Alert, cache_time=0, alert=True)
